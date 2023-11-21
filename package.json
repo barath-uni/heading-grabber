@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack/webpack.config.js"
+    "build": "webpack --config webpack/webpack.config.js",
+    "clean": "rm -rf dist && rm -rf node_modules && yarn"
   },
   "repository": "https://github.com/barath-uni/heading-grabber.git",
-  "author": "baradwaj varadharajan <baradwaj.varadharajan@triply.cc>",
+  "author": "baradwaj varadharajan <baradwajvaradharajan04@gmail>",
   "license": "MIT",
   "devDependencies": {
     "@types/chrome": "^0.0.252",
