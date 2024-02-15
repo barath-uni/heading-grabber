@@ -1,3 +1,5 @@
+console.log("Hello from content script");
+
 chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
     const tabId = tabs[0]?.id ?? -1; // Provide a default value of -1 if tabId is undefined
     chrome.scripting.executeScript(
